@@ -14,6 +14,7 @@ Go to http://localhost:8080 to play with the application:
 
 <img width="1679" alt="image" src="https://github.com/hassaanseeker/aiq_task/assets/7199288/f916a3e7-f27b-42f1-b0cc-19d861c5640d">
 
-The application has also been deployed on GCP using APP Engine below is the link for that:
+The application gives drop-down for states and another drop-down for TOP-N.
 
+The application has also been deployed on GCP using APP Engine below is the link for that:
 https://aiqusgridstask.el.r.appspot.com/
