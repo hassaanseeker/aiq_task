@@ -39,7 +39,7 @@ def get_resized_image():
     return encoded_img_data
 
 @app.route('/')
-def render_template():
+def render_index():
     """
     Function to render the html template.
     """    
