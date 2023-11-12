@@ -6,7 +6,7 @@ This application extracts image frames based on depth values. Follow the steps b
 
 1. Go inside the folder flask_image_application and run below commands.
   ```bash
-    docker build -t image_frame_extractor. 
+    docker build -t image_frame_extractor . 
     docker run -p 4000:8080 image_frame_extractor
 ```
 5. Goto http://localhost:4000 and play with the image extractor application:
