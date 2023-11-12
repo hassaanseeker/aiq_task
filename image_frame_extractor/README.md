@@ -1,6 +1,6 @@
 # Image Frame Extractor
 
-This application extracts image frames based on depth values. Follow the steps below to set up and run the application.
+This application extracts resized image from 200 to 150 width saved inside sqlit database. Extracts the frames of the resized image based on depth values. Follow the steps below to set up and run the application.
 
 ## Setup
 
