@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test Image</title>
+    </head>
+<body>
+  <div id="calc-container">
+    <h1>Image frame display</h1>
+    <form action="{{ url_for('process') }}" method="post">
+    <p>Please enter depth_min and depth_max:</p>
+    <p>The depth of the frame must be between 9000.1 and 9546.0:</p>
+    
+   
+   <br>
+   <label>Enter minimum depth:</label>
+   <input type="number" name="min_depth" step="0.1">
+   <br><br>
+   <label>Enter maximum depth:</label>
+   <input type="number" name="max_depth" step="0.1">
+   </br><br>
+   <input type="submit" name="enter" value="submit">
+</form>
+
+{% if img_data %}
+      <img id="picture" src="data:image/png;base64,{{ img_data }}">
+    {% endif %}
+  </div>
+</body>
+</html>
